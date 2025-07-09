@@ -65,8 +65,7 @@ This project was built from scratch using **HTML, CSS, and JavaScript** to showc
 
 ## 🌐 Live Site
 
-> ✅ [View Portfolio](https://rohith100705.github.io/rohith-portfolio)  
-> *(replace this link after deployment)*
+> ✅ [View Portfolio](https://rohith100705.github.io/Portfolio/)  
 
 ---
 
