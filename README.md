@@ -80,3 +80,9 @@ This project was built from scratch using **HTML, CSS, and JavaScript** to showc
 
 > Developed with ❤️ by Padamata Rohith Mano  
 > 2025# Portfolio
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Rohith100705/Portfolio.git
+git push -u origin main
