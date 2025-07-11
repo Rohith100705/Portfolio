@@ -1,12 +1,13 @@
-/* ===== Basic Styles ===== */
+/* ===== Dark Theme Styles ===== */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #121212;
+  color: #f0f0f0;
 }
 
 h1, h2, h3, h4 {
+  color: #ffffff;
   margin-bottom: 0.5em;
 }
 
@@ -18,7 +19,7 @@ section {
 
 /* ===== Navbar ===== */
 .navbar {
-  background-color: #222;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 15px 20px;
   display: flex;
@@ -48,7 +49,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
 }
 .hero-left {
   flex: 1;
@@ -58,10 +59,11 @@ section {
   width: 250px;
   height: auto;
   border-radius: 20px;
+  border: 2px solid #333;
 }
 .tagline {
   font-size: 1.2rem;
-  color: #007acc;
+  color: #90caf9;
 }
 .buttons .btn {
   display: inline-block;
@@ -69,14 +71,23 @@ section {
   margin-top: 20px;
   text-decoration: none;
   border-radius: 5px;
+  transition: all 0.3s ease;
 }
 .btn.primary {
-  background-color: #007acc;
+  background-color: #1e90ff;
   color: white;
 }
+.btn.primary:hover {
+  background-color: #63a4ff;
+  box-shadow: 0 0 10px #1e90ff;
+}
 .btn.outline {
-  border: 2px solid #007acc;
-  color: #007acc;
+  border: 2px solid #1e90ff;
+  color: #1e90ff;
+}
+.btn.outline:hover {
+  background-color: #1e90ff;
+  color: #fff;
 }
 
 /* ===== About Section ===== */
@@ -89,6 +100,7 @@ section {
 .about-img img {
   width: 250px;
   border-radius: 12px;
+  border: 2px solid #444;
 }
 .about-details ul {
   padding-left: 0;
@@ -97,6 +109,7 @@ section {
 }
 .about-details li {
   margin: 5px 0;
+  color: #ddd;
 }
 
 /* ===== Skills Section ===== */
@@ -107,12 +120,13 @@ section {
   justify-content: center;
 }
 .skill-card {
-  background: white;
+  background: #1f1f1f;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   min-width: 100px;
   text-align: center;
+  color: #f0f0f0;
 }
 
 /* ===== Education / Experience / Projects ===== */
@@ -120,22 +134,27 @@ section {
   margin-top: 2rem;
 }
 .education-card, .project-card {
-  background: white;
+  background: #1f1f1f;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  color: #eee;
 }
 
 /* ===== Footer ===== */
 .footer {
-  background-color: #222;
+  background-color: #101820;
   color: #fff;
   text-align: center;
   padding: 30px 20px;
 }
 .social-icons a {
   margin: 0 10px;
-  color: #fff;
+  color: #90caf9;
   font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #ffffff;
 }
